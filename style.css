@@ -1,11 +1,14 @@
 body{
     background-color: #FFFFFF;
-    padding: 0;
-    margin: 0;
     text-align: center;
-    font-family: 'Roboto', arial;
+    font-family: 'Roboto', arial;;
 }
 
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:116em;
+}
 .container {
     display: flex;
     flex-direction: column;
@@ -64,7 +67,8 @@ body{
 .slider1 p{
     font-family: 'Roboto', arial;
     opacity: 0.7;
-    font-size: 18px;
+    font-size: 23px;
+    text-align:left
 }
 
 
@@ -76,10 +80,9 @@ body{
     font-family: 'Roboto', arial;
     
 }
-.slider1 button{
-    display: block;
+.slider1 .signupbutton1 button{
     text-align: center;
-    width: 110px;
+    width: 120px;
     border: none;
     background: #3882f6;
     padding: 10px;
@@ -88,6 +91,7 @@ body{
     font-family: 'Roboto', arial;
     text-decoration: none;
     font-weight: bold;
+    font-size: 20px;
 }
 
 
@@ -106,7 +110,7 @@ body{
     padding: 300px;
     padding-top:50px;
     padding-bottom: 180px;
-    margin: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 0px;
 }
 .slider2 h2{
     display:flex;
@@ -163,9 +167,9 @@ body{
     justify-content: space-evenly;
     height: 20em;
     padding: 100px;
+
 }
 .slider3 p{
-   display:flex;
     color:#2f3a48;
     font-size: 36px;
     font-style: light italic;
@@ -173,20 +177,61 @@ body{
     text-align: justify;
     margin-top: 0em;
     border-top: 0em;
+    width:100em;
 }
 
-.slider4{  
+
+
+.slider4{
+    background-color: #3882F6 ;
+    margin: 100px 200px;
+    padding: 50px;
+    width: 90em;
     display: flex;
-    flex-direction: row;
-    color: rgb(240, 234, 234);
-    background-color: white;
     align-items: center;
-    justify-content: space-evenly;
-    height: 20em;
-    padding: 100px;
+    border-radius: 10px;
 }
+
+.calltoactionbutton{
+    flex: 1;
+}
+
+.calltoactiontext {
+    text-align: left;
+    font-size: 30px;
+}
+
+.calltoactiontext p {
+    color: #fff;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+    font-size: 25px;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.calltoactionbutton button {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 50px;
+    font-size: 25px;
+    
+}
+
 .footer{
     display: flex;
     color: #F9FAF8;
     background-color: #1F2937;
+    font-family: 'Roboto', arial;
+    font-size: 25px;
+    padding: 30px;
+    justify-content: center;
 }
